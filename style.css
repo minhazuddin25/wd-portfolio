@@ -1,3 +1,42 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+
+
 nav{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title{
+    font-family: 'Open Sans', sans-serif;
+
+}
+.nav-title h3{
+    font-size: 35px;
+}
+span{
+    color: tomato;
+}
+
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+}
+
+.btn-primary{
+    background-color: tomato;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 15px 35px;
 }
